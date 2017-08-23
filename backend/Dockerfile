@@ -1,9 +1,9 @@
 FROM node:8.2.1
 
-# Create app directory
+# Create backend directory
 WORKDIR /backend
 
-# Copy the current directory contents into the container at /app
+# Copy the current directory contents into the container at /backend
 ADD . /backend
 
 # Install any needed packages specified in package.json
