@@ -6,3 +6,7 @@ node_modules
 
 # Logs
 *.log
+
+# .env file should not be pushed to remote.
+#But for this assignment it was a requirement to have api key public.
+#.env
